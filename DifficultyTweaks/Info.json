@@ -1,0 +1,13 @@
+﻿{
+    "AssemblyName": "DifficultyTweaks.dll",
+    "Author": "Sean Petrie",
+    "DisplayName": "Difficulty Tweaks",
+    "EntryMethod": "DifficultyTweaks.Main.Load",
+    "GameVersion": "0.8.0",
+    "HomePage": "https://github.com/Vek17/WrathMods-DifficultyTweaks/releases",
+    "Id": "DifficultyTweaks",
+    "ManagerVersion": "0.23.0",
+    "Repository": "https://raw.githubusercontent.com/Vek17/WrathMods-DifficultyTweaks/master/Repository.json",
+    "Requirements": [],
+    "Version": "0.0.1"
+}
