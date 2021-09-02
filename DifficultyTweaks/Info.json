@@ -3,7 +3,7 @@
     "Author": "Sean Petrie",
     "DisplayName": "Difficulty Tweaks",
     "EntryMethod": "DifficultyTweaks.Main.Load",
-    "GameVersion": "0.8.0",
+    "GameVersion": "0.7.0",
     "HomePage": "https://github.com/Vek17/WrathMods-DifficultyTweaks/releases",
     "Id": "DifficultyTweaks",
     "ManagerVersion": "0.23.0",

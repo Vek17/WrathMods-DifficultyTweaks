@@ -59,13 +59,13 @@ namespace DifficultyTweaks {
             Settings.Save(modEntry);
         }
 
-        [HarmonyPatch(typeof(DifficultyPresetsController), "CurrentDifficultyCompareTo", new Type[] { typeof(GameDifficultyOption) })]
+        [HarmonyPatch(typeof(DifficultyPresetsController), "CurrentDifficultyStatAdjustmentCompareTo", new Type[] { typeof(GameDifficultyOption) })]
         static class Difficulty_Override_Patch {
             static void Postfix(GameDifficultyOption gameDifficultyOption, ref int __result) {
                 if (!Settings.enableOverride) { return; }
                 if (gameDifficultyOption < Settings.difficultySetting) {
-                    __result = 1; 
-                } else if(gameDifficultyOption == Settings.difficultySetting) {
+                    __result = 1;
+                } else if (gameDifficultyOption == Settings.difficultySetting) {
                     __result = 0;
                 } else if (gameDifficultyOption > Settings.difficultySetting) {
                     __result = -1;

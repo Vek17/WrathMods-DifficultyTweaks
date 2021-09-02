@@ -2,7 +2,7 @@
 using UnityModManagerNet;
 
 namespace DifficultyTweaks {
-    public class Settings: UnityModManager.ModSettings {
+    public class Settings : UnityModManager.ModSettings {
         public GameDifficultyOption difficultySetting = GameDifficultyOption.Custom;
         public bool enableOverride = false;
 
