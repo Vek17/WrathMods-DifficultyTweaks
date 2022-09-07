@@ -1,6 +1,6 @@
 ﻿{
     "AssemblyName": "DifficultyTweaks.dll",
-    "Author": "Sean Petrie",
+    "Author": "Vek17",
     "DisplayName": "Difficulty Tweaks",
     "EntryMethod": "DifficultyTweaks.Main.Load",
     "GameVersion": "1.0.0",
